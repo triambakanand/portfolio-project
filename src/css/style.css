@@ -65,4 +65,49 @@ code {
   width: 100vw;
 }
 
+.nav-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem;
+}
+
+.nav-navbar {
+  display: inline-block;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(22, 22, 23, 0.8);
+  text-align: center;
+  padding: 1.5rem 0;
+}
+.nav-navbar__details:visited, .nav-navbar__details:link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  font-weight: 450;
+  margin-left: 4rem;
+}
+
+.ind-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem;
+}
+
+.ind-nav-navbar {
+  display: block;
+  position: fixed;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.ind-nav-navbar__details {
+  height: 5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
