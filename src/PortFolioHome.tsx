@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import "./css/style.css";
 import Home from "./Components/Home";
@@ -10,7 +10,7 @@ const PortFolioHome: React.FC<{}> = ({ ...props }) => {
   return (
     <div className="master-div">
       <Navbar />
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           {/* For multiple route paths - useRoutes */}
           {["/", "/portfolio-project"].map((path, key) => (
@@ -20,7 +20,7 @@ const PortFolioHome: React.FC<{}> = ({ ...props }) => {
           <Route path={"/portfolio-trending"} element={<Trending />} />
           <Route path={"/portfolio-contact"} element={<Contact />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 };

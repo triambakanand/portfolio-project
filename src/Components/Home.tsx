@@ -6,23 +6,29 @@ const Home: React.FC = () => {
       <header className="header"></header>
 
       <main>
-        <section className="section-intro">
-          <div className="section-intro--div">
-            <span className="section-intro--intro">
+        <section className="sec-intro">
+          <div className="sec-intro--div">
+            <span className="sec-intro--intro">
               <hr />
               Introduction
               <hr />
             </span>
           </div>
-          <div className="section-intro--summary">
+          <div className="sec-intro--summary">
             <p>
               Passionate
-              <span className="section-intro--summary__text-class-style">
+              <span
+                className="sec-intro--summary__text-class-style"
+                style={{ color: "#28b485" }}
+              >
                 {" "}
                 FrontEnd Developer
               </span>{" "}
               with more than
-              <span className="section-intro--summary__text-class-style">
+              <span
+                className="sec-intro--summary__text-class-style"
+                style={{ color: "#28b485" }}
+              >
                 {" "}
                 4.5 years
               </span>{" "}
@@ -32,66 +38,80 @@ const Home: React.FC = () => {
               into high quality code.
             </p>
             <p>
-              Interacting with clients and providing them efficient business
-              solutions.
+              Interacting with clients and providing them{" "}
+              <span
+                className="sec-intro--summary__text-class-style"
+                style={{ color: "#28b485" }}
+              >
+                efficient business solutions
+              </span>
+              .
             </p>
             <p>
-              Handled a team of 4-5 members and guided them to provide industry
-              standard output.
+              Handled a{" "}
+              <span
+                className="sec-intro--summary__text-class-style"
+                style={{ color: "#28b485" }}
+              >
+                team of 4-5 members
+              </span>{" "}
+              and guided them to provide industry standard output.
             </p>
           </div>
         </section>
 
-        <section className="section-keyskills">
-          <div className="section-keyskills--div">
-            <span className="section-keyskills--keyskills">
+        <section className="sec-keyskills">
+          <div className="sec-keyskills--div">
+            <span className="sec-keyskills--keyskills">
               <hr />
               Key Skills
               <hr />
             </span>
           </div>
-          <div className="section-keyskills--skills">
-            <div className="section-keyskills--skill">
-              Front-end Architecture
-            </div>
-            <div className="section-keyskills--skill">
+          <div className="sec-keyskills--skills">
+            <div className="sec-keyskills--skill">Front-end Architecture</div>
+            <div className="sec-keyskills--skill">
               Responsive Wireframe & UX Design
             </div>
-            <div className="section-keyskills--skill">RESTful APIs</div>
-            <div className="section-keyskills--skill">
-              API Authorization & JWT Authentication
+            <div className="sec-keyskills--skill">RESTful APIs</div>
+            <div className="sec-keyskills--skill">
+              OAuth & JWT Authentication
             </div>
-            <div className="section-keyskills--skill">
-              Performance Improvement
-            </div>
-            <div className="section-keyskills--skill">
+            <div className="sec-keyskills--skill">API Authorization</div>
+            <div className="sec-keyskills--skill">Performance Improvement</div>
+            <div className="sec-keyskills--skill">
               Unit Testing & Localization
             </div>
-            <div className="section-keyskills--skill">
+            <div className="sec-keyskills--skill">
               Agile Project Methodology
             </div>
           </div>
-          {/* <div className="section-keyskills--skills">
-            <div className="section-keyskills--skill">
-              Front-end Architecture
+        </section>
+
+        <section className="sec-tech">
+          <div className="sec-tech--div">
+            <span className="sec-tech--techSkills">
+              <hr />
+              Technical Skills
+              <hr />
+            </span>
+          </div>
+          <div className="sec-tech--skills">
+            <div className="sec-tech--skill">React.js</div>
+            <div className="sec-tech--skill">Redux</div>
+            <div className="sec-tech--skill">
+              Enzyme & React-Testing-Library
             </div>
-            <div className="section-keyskills--skill">
-              Responsive Wireframe & UX Design
-            </div>
-            <div className="section-keyskills--skill">RESTful APIs</div>
-            <div className="section-keyskills--skill">
-              API Authorization & Authentication JWT
-            </div>
-            <div className="section-keyskills--skill">
-              Performance Improvement
-            </div>
-            <div className="section-keyskills--skill">
-              Unit Testing & Localization
-            </div>
-            <div className="section-keyskills--skill">
-              Agile Project Methodology
-            </div>
-          </div> */}
+            <div className="sec-tech--skill">Material UI & UI Core</div>
+            <div className="sec-tech--skill">Visual Studio Code, Webpack</div>
+            <div className="sec-tech--skill">Eslint</div>
+            <div className="sec-tech--skill">Axios</div>
+            <div className="sec-tech--skill">Babel</div>
+            <div className="sec-tech--skill">Git</div>
+            <div className="sec-tech--skill">Npm/Npx</div>
+            <div className="sec-tech--skill">Prettier</div>
+            <div className="sec-tech--skill">ESLint</div>
+          </div>
         </section>
       </main>
     </>
@@ -99,3 +119,12 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
+// React and Development Tools:
+//   React.js
+//   Redux
+//   Enzyme & React-Testing-Library
+//   Material UI & UI Core
+//   Visual Studio Code, Webpack
+//   Eslint, Axios, Babel, Git, Npm
+//   Prettier

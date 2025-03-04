@@ -25,6 +25,18 @@
         margin-left: 4rem;
     }
    }
+   @media (max-width:600px) {
+    &__details {
+        &:visited,
+        &:link{
+            text-decoration: none;
+            color: #ffffffcc;
+            font-size: 1.2rem;
+            font-weight: 450;
+            margin-left: 4rem;
+        }
+       }
+  }
 }
 
 .ind-container{
