@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "RusticRoadway";
+  src: local("RusticRoadway"), url("../../public/fonts/RusticRoadway.otf") format("opentype");
+  font-weight: normal;
+}
+
 *,
 *::before,
 *::after {

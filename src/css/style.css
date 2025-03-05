@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "RusticRoadway";
+  src: local("RusticRoadway"), url("../../public/fonts/RusticRoadway.otf") format("opentype");
+  font-weight: normal;
+}
 *,
 *::before,
 *::after {
@@ -76,6 +81,98 @@ code {
 main {
   margin: 3rem;
   background-color: #f7f7f7;
+}
+
+.sec-main {
+  color: #f7f7f7;
+}
+.sec-main--div {
+  display: grid;
+  place-content: center;
+  padding-bottom: 1rem;
+}
+.sec-main--intro {
+  text-align: center;
+  padding-top: 2rem;
+  color: #AE8337;
+  font-size: 4.5rem;
+  font-family: "RusticRoadway";
+}
+@media (max-width: 600px) {
+  .sec-main--intro {
+    font-size: 3.5rem;
+  }
+}
+.sec-main--details {
+  display: grid;
+  justify-self: center;
+  width: 60%;
+  margin: 1rem 3rem;
+  background-color: #061326;
+  border-radius: 2rem;
+  padding: 3rem;
+}
+@media (max-width: 600px) {
+  .sec-main--details {
+    width: 95%;
+    padding: 1.2rem;
+  }
+}
+@media ((min-width: 600px) and (max-width: 1250px)) {
+  .sec-main--details {
+    width: 80%;
+    padding: 1.2rem;
+  }
+}
+.sec-main--border {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  border-radius: 2rem;
+  border: 2px solid #AE8337;
+}
+.sec-main--goldText {
+  display: inline-block;
+  background-image: linear-gradient(to right, #F1C259, #B27E1D);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+}
+@media (max-width: 600px) {
+  .sec-main--goldText {
+    font-size: 1.2rem;
+  }
+}
+.sec-main--fullName {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  padding-top: 1rem;
+}
+@media (max-width: 600px) {
+  .sec-main--fullName {
+    font-size: 2rem;
+  }
+}
+.sec-main--role {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+@media (max-width: 600px) {
+  .sec-main--role {
+    font-size: 1.5rem;
+  }
+}
+.sec-main--hrGold {
+  background: linear-gradient(to right, #F1C259, #B27E1D);
+  height: 1px;
+  border: 0;
+  margin-bottom: 1rem;
+}
+
+.gap {
+  margin-bottom: 1rem;
 }
 
 .sec-intro--div {
@@ -166,7 +263,7 @@ p {
 .sec-tech--skills {
   display: grid;
   place-content: center;
-  grid-template-columns: 23rem 23rem 23rem 23rem;
+  grid-template-columns: 23rem 23rem 23rem 23rem 23rem;
   grid-auto-rows: minmax(0, auto);
 }
 @media (max-width: 600px) {
@@ -185,8 +282,8 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #7c73e6;
-  color: #fafafa;
+  background-color: #28b485;
+  color: #fff;
   border: 1px solid #c4c1e0;
   margin: 1.5rem;
   padding: 1rem 1rem;
@@ -195,6 +292,16 @@ p {
 }
 .sec-tech--skill:hover {
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2), 4px 2px 10px 4px #ffe9e3;
+}
+@media (max-width: 600px) {
+  .sec-tech--skill {
+    font-size: 1.5rem;
+  }
+}
+@media ((min-width: 600px) and (max-width: 1250px)) {
+  .sec-tech--skill {
+    font-size: 1.8rem;
+  }
 }
 
 .nav-container {

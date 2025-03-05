@@ -6,6 +6,58 @@ const Home: React.FC = () => {
       <header className="header"></header>
 
       <main>
+        <section className="sec-main">
+          <div className="sec-main--div">
+            <span className="sec-main--intro">Welcome To My Portfolio</span>
+          </div>
+          <section className="sec-main--details">
+            <div className="sec-main--border">
+              <span className="sec-main--goldText sec-main--fullName">
+                Triambak Anand
+              </span>
+              <div style={{ display: "grid", justifyContent: "center" }}>
+                <span className="sec-main--goldText sec-main--role">
+                  CSE Senior Analyst
+                  <hr className="sec-main--hrGold" />
+                </span>
+              </div>
+              <span className="sec-main--goldText gap">
+                <i className="fa-solid fa-envelope"></i>
+                &nbsp;triambakanand@gmail.com
+              </span>
+              <span className="sec-main--goldText gap">
+                <i className="fa-brands fa-linkedin"></i>
+                &nbsp;
+                <a
+                  href="https://www.linkedin.com/in/triambakanand"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  linkedin.com/in/triambakanand
+                </a>
+              </span>
+              <span className="sec-main--goldText gap">
+                <i className="fa-brands fa-github"></i>
+                &nbsp;
+                <a
+                  href="https://github.com/triambakanand"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  github.com/triambakanand
+                </a>
+              </span>
+              <span className="sec-main--goldText gap">
+                <i className="fa-solid fa-phone"></i> &nbsp;91-9588665698
+              </span>
+              <span className="sec-main--goldText gap">
+                <i className="fa-solid fa-location-dot"></i> &nbsp;Pune, India
+              </span>
+            </div>
+          </section>
+        </section>
         <section className="sec-intro">
           <div className="sec-intro--div">
             <span className="sec-intro--intro">
@@ -99,11 +151,10 @@ const Home: React.FC = () => {
           <div className="sec-tech--skills">
             <div className="sec-tech--skill">React.js</div>
             <div className="sec-tech--skill">Redux</div>
-            <div className="sec-tech--skill">
-              Enzyme & React-Testing-Library
-            </div>
+            <div className="sec-tech--skill">React-Testing-Library</div>
             <div className="sec-tech--skill">Material UI & UI Core</div>
-            <div className="sec-tech--skill">Visual Studio Code, Webpack</div>
+            <div className="sec-tech--skill">Visual Studio Code</div>
+            <div className="sec-tech--skill">Webpack</div>
             <div className="sec-tech--skill">Eslint</div>
             <div className="sec-tech--skill">Axios</div>
             <div className="sec-tech--skill">Babel</div>
@@ -111,6 +162,8 @@ const Home: React.FC = () => {
             <div className="sec-tech--skill">Npm/Npx</div>
             <div className="sec-tech--skill">Prettier</div>
             <div className="sec-tech--skill">ESLint</div>
+            <div className="sec-tech--skill">GitLab</div>
+            <div className="sec-tech--skill">GitHub</div>
           </div>
         </section>
       </main>
