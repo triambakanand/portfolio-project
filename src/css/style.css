@@ -114,7 +114,7 @@ main {
 }
 @media (max-width: 600px) {
   .sec-main--details {
-    width: 95%;
+    width: 85%;
     padding: 1.2rem;
   }
 }
