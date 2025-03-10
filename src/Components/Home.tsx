@@ -148,7 +148,7 @@ const Home: React.FC = () => {
               <hr />
             </span>
           </div>
-          <div className="sec-tech--skills">
+          {/* <div className="sec-tech--skills">
             <div className="sec-tech--skill">React.js</div>
             <div className="sec-tech--skill">Redux</div>
             <div className="sec-tech--skill">React-Testing-Library</div>
@@ -164,6 +164,39 @@ const Home: React.FC = () => {
             <div className="sec-tech--skill">ESLint</div>
             <div className="sec-tech--skill">GitLab</div>
             <div className="sec-tech--skill">GitHub</div>
+            
+          </div> */}
+          <div className="sec-tech--card">
+            <div className="sec-tech--card__1">
+              <div className="sec-tech--heading">
+                &#8284;Technologies&#8284;
+                <hr style={{ border: "1px solid #f9bc61" }} />
+              </div>
+              <div className="sec-tech--skill">&#8901; Javascript &#8901;</div>
+              <div className="sec-tech--star">
+                &#9733;&#9733;&#9733;&#9733;&#9734;
+              </div>
+              <div className="sec-tech--skill">&#8901; React.js &#8901;</div>
+              <div className="sec-tech--star">
+                &#9733;&#9733;&#9733;&#9733;&#9734;
+              </div>
+              <div className="sec-tech--skill">&#8901; Typescript &#8901;</div>
+              <div className="sec-tech--star">
+                &#9733;&#9733;&#9733;&#9733;&#9734;
+              </div>
+              <div className="sec-tech--skill">&#8901; Redux &#8901;</div>
+              <div className="sec-tech--star">
+                &#9733;&#9733;&#9733;&#9733;&#9734;
+              </div>
+              {/* <div className="sec-tech--skill__star"></div> */}
+            </div>
+            <div className="sec-tech--card__2">
+              <div className="sec-tech--heading">
+                &#8280;Dev Tools&#8280;
+                <hr style={{ border: "1px solid #f9bc61" }} />
+              </div>
+            </div>
+            {/* <div className="sec-tech--heading">Dev Tools</div> */}
           </div>
         </section>
       </main>
@@ -172,12 +205,3 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-
-// React and Development Tools:
-//   React.js
-//   Redux
-//   Enzyme & React-Testing-Library
-//   Material UI & UI Core
-//   Visual Studio Code, Webpack
-//   Eslint, Axios, Babel, Git, Npm
-//   Prettier
