@@ -380,19 +380,6 @@ const Home: React.FC = () => {
           </div> */}
 
           {/* Example */}
-          {/* <div className="container">
-            <div
-              className="percent"
-              data-text="HTML"
-              style={{ "--num": 85 } as React.CSSProperties}
-            >
-              <div className="dot"></div>
-              <svg>
-                <circle cx="70" cy="70" r="70"></circle>
-                <circle cx="70" cy="70" r="70"></circle>
-              </svg>
-            </div>
-          </div> */}
           <div className="container">
             <div
               className="percent"
