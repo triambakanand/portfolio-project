@@ -1,24 +1,25 @@
 import "../css/style.css";
 import nationalEmblem from "../Assets/national-emblem.png";
 import indiaFlag from "../Assets/flag.png";
+import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   return (
     <>
       <div className="nav-container">
         <nav className="nav-navbar">
-          <a className="nav-navbar__details" href="/portfolio-project">
+          <Link className="nav-navbar__details" to="/portfolio-project">
             Home
-          </a>
-          <a className="nav-navbar__details" href="/portfolio-learning">
+          </Link>
+          <Link className="nav-navbar__details" to="/portfolio-learning">
             Learning
-          </a>
-          <a className="nav-navbar__details" href="/portfolio-trending">
+          </Link>
+          <Link className="nav-navbar__details" to="/portfolio-trending">
             Trending
-          </a>
-          <a className="nav-navbar__details" href="/portfolio-contact">
+          </Link>
+          <Link className="nav-navbar__details" to="/portfolio-contact">
             Contact
-          </a>
+          </Link>
         </nav>
       </div>
       <div className="ind-container">

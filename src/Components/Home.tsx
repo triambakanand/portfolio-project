@@ -70,7 +70,7 @@ const Home: React.FC = () => {
             <p>
               Passionate
               <span
-                className="sec-intro--summary__text-className-style"
+                className="sec-intro--summary__text-class-style"
                 style={{ color: "#28b485" }}
               >
                 {" "}
@@ -78,7 +78,7 @@ const Home: React.FC = () => {
               </span>{" "}
               with more than
               <span
-                className="sec-intro--summary__text-className-style"
+                className="sec-intro--summary__text-class-style"
                 style={{ color: "#28b485" }}
               >
                 {" "}
@@ -92,7 +92,7 @@ const Home: React.FC = () => {
             <p>
               Interacting with clients and providing them{" "}
               <span
-                className="sec-intro--summary__text-className-style"
+                className="sec-intro--summary__text-class-style"
                 style={{ color: "#28b485" }}
               >
                 efficient business solutions
@@ -102,7 +102,7 @@ const Home: React.FC = () => {
             <p>
               Handled a{" "}
               <span
-                className="sec-intro--summary__text-className-style"
+                className="sec-intro--summary__text-class-style"
                 style={{ color: "#28b485" }}
               >
                 team of 4-5 members
@@ -380,19 +380,6 @@ const Home: React.FC = () => {
           </div> */}
 
           {/* Example */}
-          {/* <div className="container">
-            <div
-              className="percent"
-              data-text="HTML"
-              style={{ "--num": 85 } as React.CSSProperties}
-            >
-              <div className="dot"></div>
-              <svg>
-                <circle cx="70" cy="70" r="70"></circle>
-                <circle cx="70" cy="70" r="70"></circle>
-              </svg>
-            </div>
-          </div> */}
           <div className="container">
             <div
               className="percent"
