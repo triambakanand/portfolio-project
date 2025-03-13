@@ -124,22 +124,124 @@ const Home: React.FC = () => {
               <hr />
             </span>
           </div>
-          <div className="sec-keyskills--skills">
-            <div className="sec-keyskills--skill">Front-end Architecture</div>
-            <div className="sec-keyskills--skill">
-              Responsive Wireframe & UX Design
+          <div className="td-div">
+            <div className="card">
+              <div className="card__side card__side--front">
+                <div className="card__side--front-text">
+                  Front-end Architecture
+                </div>
+              </div>
+              <div className="card__side card__side--back card__side--back-1">
+                <span className="card__side--back-descp">
+                  Front-end architecture is the structure and design of a
+                  website's user interface (UI). It includes the layout,
+                  components, and how they interact with each other and backend
+                  services.
+                </span>
+              </div>
             </div>
-            <div className="sec-keyskills--skill">RESTful APIs</div>
-            <div className="sec-keyskills--skill">
-              OAuth & JWT Authentication
+            <div className="card">
+              <div className="card__side card__side--front">
+                <div className="card__side--front-text">
+                  Responsive Wireframe & UX Design
+                </div>
+              </div>
+              <div className="card__side card__side--back card__side--back-1">
+                <span className="card__side--back-descp">
+                  Sets of wireframes and how with different layouts for the same
+                  design that: Show how web content adapts to different grid
+                  widths
+                </span>
+              </div>
             </div>
-            <div className="sec-keyskills--skill">API Authorization</div>
-            <div className="sec-keyskills--skill">Performance Improvement</div>
-            <div className="sec-keyskills--skill">
-              Unit Testing & Localization
+            <div className="card">
+              <div className="card__side card__side--front">
+                <div className="card__side--front-text">RESTful APIs</div>
+              </div>
+              <div className="card__side card__side--back card__side--back-1">
+                <span className="card__side--back-descp">
+                  APIs that follow the principles of Representational State
+                  Transfer (REST), using standard HTTP methods like GET, POST,
+                  PUT, and DELETE to interact with resources over a web URL,
+                  making data accessible in a structured way.
+                </span>
+              </div>
             </div>
-            <div className="sec-keyskills--skill">
-              Agile Project Methodology
+            <div className="card">
+              <div className="card__side card__side--front">
+                <div className="card__side--front-text">
+                  OAuth & JWT Authentication
+                </div>
+              </div>
+              <div className="card__side card__side--back card__side--back-1">
+                <span className="card__side--back-descp">
+                  OAuth is a framework for authorization, allowing third-party
+                  apps to access user data without sharing passwords, while JWT
+                  is a token format for securely transmitting information, often
+                  used for authentication and authorizations.
+                </span>
+              </div>
+            </div>
+            <div className="card">
+              <div className="card__side card__side--front">
+                <div className="card__side--front-text">API Authorization</div>
+              </div>
+              <div className="card__side card__side--back card__side--back-1">
+                <span className="card__side--back-descp">
+                  Determines if a user or client has the necessary permissions
+                  to access specific resources or functions in an API, ensuring
+                  only authorized users gain access to sensitive data and
+                  functionality.
+                </span>
+              </div>
+            </div>
+            <div className="card">
+              <div className="card__side card__side--front">
+                <div className="card__side--front-text">
+                  Performance Improvement
+                </div>
+              </div>
+              <div className="card__side card__side--back card__side--back-1">
+                <span className="card__side--back-descp">
+                  Performance improvement is measuring the output of a
+                  particular business process or procedure, then modifying the
+                  process or procedure to increase the output, increase
+                  efficiency, or increase the effectiveness of the process or
+                  procedure.
+                </span>
+              </div>
+            </div>
+            <div className="card">
+              <div className="card__side card__side--front">
+                <div className="card__side--front-text">
+                  Unit Testing & Localization
+                </div>
+              </div>
+              <div className="card__side card__side--back card__side--back-1">
+                <span className="card__side--back-descp">
+                  "Unit testing" refers to testing individual, small units of
+                  code in isolation to verify their functionality, while
+                  "localization" means adapting a software product to a specific
+                  region or culture, including language, currency, date formats,
+                  and cultural nuances
+                </span>
+              </div>
+            </div>
+            <div className="card">
+              <div className="card__side card__side--front">
+                <div className="card__side--front-text">
+                  Agile Project Methodology
+                </div>
+              </div>
+              <div className="card__side card__side--back card__side--back-1">
+                <span className="card__side--back-descp">
+                  Agile methodology is a project management approach emphasizing
+                  iterative development, flexibility, collaboration, and
+                  continuous improvement, breaking down projects into smaller,
+                  manageable cycles called sprints to deliver incremental value
+                  and adapt to changes quickly.
+                </span>
+              </div>
             </div>
           </div>
         </section>
@@ -478,99 +580,6 @@ const Home: React.FC = () => {
             </div>
           </div> */}
         </section>
-
-        <div className="td-div">
-          <div className="card">
-            <div className="card__side card__side--front">
-              <div className="card__side--front-text">
-                Front-end Architecture
-              </div>
-            </div>
-            <div className="card__side card__side--back card__side--back-1">
-              <span
-                className="card__side--back-descp"
-                style={{
-                  fontSize: "1.2rem",
-                  display: "grid",
-                  placeContent: "center",
-                  height: "12rem",
-                  padding: "1rem",
-                }}
-              >
-                Front-end architecture is the structure and design of a
-                website's user interface (UI). It includes the layout,
-                components, and how they interact with each other and backend
-                services.
-              </span>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card__side card__side--front">
-              <div className="card__side--front-text">
-                Responsive Wireframe & UX Design
-              </div>
-            </div>
-            <div className="card__side card__side--back card__side--back-1">
-              <span>Back Side</span>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card__side card__side--front">
-              <div className="card__side--front-text">RESTful APIs</div>
-            </div>
-            <div className="card__side card__side--back card__side--back-1">
-              <span>Back Side</span>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card__side card__side--front">
-              <div className="card__side--front-text">
-                OAuth & JWT Authentication
-              </div>
-            </div>
-            <div className="card__side card__side--back card__side--back-1">
-              <span>Back Side</span>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card__side card__side--front">
-              <div className="card__side--front-text">API Authorization</div>
-            </div>
-            <div className="card__side card__side--back card__side--back-1">
-              <span>Back Side</span>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card__side card__side--front">
-              <div className="card__side--front-text">
-                Performance Improvement
-              </div>
-            </div>
-            <div className="card__side card__side--back card__side--back-1">
-              <span>Back Side</span>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card__side card__side--front">
-              <div className="card__side--front-text">
-                Unit Testing & Localization
-              </div>
-            </div>
-            <div className="card__side card__side--back card__side--back-1">
-              <span>Back Side</span>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card__side card__side--front">
-              <div className="card__side--front-text">
-                Agile Project Methodology
-              </div>
-            </div>
-            <div className="card__side card__side--back card__side--back-1">
-              <span>Back Side</span>
-            </div>
-          </div>
-        </div>
 
         {/* Work Experience Section */}
         {/* <section className="sec-expe">
