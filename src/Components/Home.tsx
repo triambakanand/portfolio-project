@@ -109,6 +109,10 @@ const Home: React.FC = () => {
               </span>{" "}
               and guided them to provide industry standard output.
             </p>
+            <p>
+              Currently learning Backend technologies, Databases and DevOps to
+              become Full Stack Developer
+            </p>
           </div>
         </section>
 
@@ -148,25 +152,60 @@ const Home: React.FC = () => {
               <hr />
             </span>
           </div>
-          {/* <div className="sec-tech--skills">
-            <div className="sec-tech--skill">React.js</div>
-            <div className="sec-tech--skill">Redux</div>
-            <div className="sec-tech--skill">React-Testing-Library</div>
-            <div className="sec-tech--skill">Material UI & UI Core</div>
-            <div className="sec-tech--skill">Visual Studio Code</div>
-            <div className="sec-tech--skill">Webpack</div>
-            <div className="sec-tech--skill">Eslint</div>
-            <div className="sec-tech--skill">Axios</div>
-            <div className="sec-tech--skill">Babel</div>
-            <div className="sec-tech--skill">Git</div>
-            <div className="sec-tech--skill">Npm/Npx</div>
-            <div className="sec-tech--skill">Prettier</div>
-            <div className="sec-tech--skill">ESLint</div>
-            <div className="sec-tech--skill">GitLab</div>
-            <div className="sec-tech--skill">GitHub</div>
-            
-          </div> */}
+
           <div className="sec-tech--card">
+            {/* <div className="sec-tech--card__1">
+              <div className="sec-tech--heading">
+                &#8284;Technologies&#8284;
+                <hr style={{ border: "1px solid #f9bc61" }} />
+              </div>
+              <div className="container">
+                <div
+                  className="percent"
+                  data-text="HTML"
+                  style={{ "--num": 85 } as React.CSSProperties}
+                >
+                  <div className="dot"></div>
+                  <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70"></circle>
+                  </svg>
+                </div>
+                <div
+                  className="percent"
+                  data-text="HTML"
+                  style={{ "--num": 76 } as React.CSSProperties}
+                >
+                  <div className="dot"></div>
+                  <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70"></circle>
+                  </svg>
+                </div>
+                <div
+                  className="percent"
+                  data-text="HTML"
+                  style={{ "--num": 32 } as React.CSSProperties}
+                >
+                  <div className="dot"></div>
+                  <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70"></circle>
+                  </svg>
+                </div>
+                <div
+                  className="percent"
+                  data-text="HTML"
+                  style={{ "--num": 68 } as React.CSSProperties}
+                >
+                  <div className="dot"></div>
+                  <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70"></circle>
+                  </svg>
+                </div>
+              </div>
+            </div> */}
             <div className="sec-tech--card__1">
               <div className="sec-tech--heading">
                 &#8284;Technologies&#8284;
@@ -206,10 +245,55 @@ const Home: React.FC = () => {
                     &#9733;&#9733;&#9733;&#9733;&#9734;
                   </div>
                 </div>
-              </div>
 
-              {/* <div className="sec-tech--skill__star"></div> */}
+                <div>
+                  <div className="sec-tech--skill">&#8901; HTML5 &#8901;</div>
+                  <div className="sec-tech--star">
+                    &#9733;&#9733;&#9733;&#9733;&#9734;
+                  </div>
+                </div>
+
+                <div>
+                  <div className="sec-tech--skill">&#8901; CSS3 &#8901;</div>
+                  <div className="sec-tech--star">
+                    &#9733;&#9733;&#9733;&#9733;&#9734;
+                  </div>
+                </div>
+
+                <div>
+                  <div className="sec-tech--skill">&#8901; NodeJs &#8901;</div>
+                  <div className="sec-tech--star">
+                    &#9733;&#9733;&#9733;&#9734;&#9734;
+                  </div>
+                </div>
+
+                <div>
+                  <div className="sec-tech--skill">
+                    &#8901; ExpressJs &#8901;
+                  </div>
+                  <div className="sec-tech--star">
+                    &#9733;&#9733;&#9733;&#9734;&#9734;
+                  </div>
+                </div>
+
+                <div>
+                  <div className="sec-tech--skill">&#8901; MongoDB &#8901;</div>
+                  <div className="sec-tech--star">
+                    &#9733;&#9733;&#9734;&#9734;&#9734;
+                  </div>
+                </div>
+
+                <div>
+                  <div className="sec-tech--skill">
+                    &#8901; Mongoose &#8901;
+                  </div>
+                  <div className="sec-tech--star">
+                    &#9733;&#9733;&#9734;&#9734;&#9734;
+                  </div>
+                </div>
+              </div>
             </div>
+
             <div className="sec-tech--card__2">
               <div className="sec-tech--heading">
                 &#8280;Dev Tools&#8280;
@@ -380,7 +464,7 @@ const Home: React.FC = () => {
           </div> */}
 
           {/* Example */}
-          <div className="container">
+          {/* <div className="container">
             <div
               className="percent"
               data-text="HTML"
@@ -392,8 +476,115 @@ const Home: React.FC = () => {
                 <circle cx="70" cy="70" r="70"></circle>
               </svg>
             </div>
-          </div>
+          </div> */}
         </section>
+
+        <div className="td-div">
+          <div className="card">
+            <div className="card__side card__side--front">
+              <div className="card__side--front-text">
+                Front-end Architecture
+              </div>
+            </div>
+            <div className="card__side card__side--back card__side--back-1">
+              <span
+                className="card__side--back-descp"
+                style={{
+                  fontSize: "1.2rem",
+                  display: "grid",
+                  placeContent: "center",
+                  height: "12rem",
+                  padding: "1rem",
+                }}
+              >
+                Front-end architecture is the structure and design of a
+                website's user interface (UI). It includes the layout,
+                components, and how they interact with each other and backend
+                services.
+              </span>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card__side card__side--front">
+              <div className="card__side--front-text">
+                Responsive Wireframe & UX Design
+              </div>
+            </div>
+            <div className="card__side card__side--back card__side--back-1">
+              <span>Back Side</span>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card__side card__side--front">
+              <div className="card__side--front-text">RESTful APIs</div>
+            </div>
+            <div className="card__side card__side--back card__side--back-1">
+              <span>Back Side</span>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card__side card__side--front">
+              <div className="card__side--front-text">
+                OAuth & JWT Authentication
+              </div>
+            </div>
+            <div className="card__side card__side--back card__side--back-1">
+              <span>Back Side</span>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card__side card__side--front">
+              <div className="card__side--front-text">API Authorization</div>
+            </div>
+            <div className="card__side card__side--back card__side--back-1">
+              <span>Back Side</span>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card__side card__side--front">
+              <div className="card__side--front-text">
+                Performance Improvement
+              </div>
+            </div>
+            <div className="card__side card__side--back card__side--back-1">
+              <span>Back Side</span>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card__side card__side--front">
+              <div className="card__side--front-text">
+                Unit Testing & Localization
+              </div>
+            </div>
+            <div className="card__side card__side--back card__side--back-1">
+              <span>Back Side</span>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card__side card__side--front">
+              <div className="card__side--front-text">
+                Agile Project Methodology
+              </div>
+            </div>
+            <div className="card__side card__side--back card__side--back-1">
+              <span>Back Side</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Work Experience Section */}
+        {/* <section className="sec-expe">
+          <div className="sec-expe--div">
+            <span className="sec-expe--expeSkills">
+              <hr />
+              Work Experience
+              <hr />
+            </span>
+          </div>
+          <div className="sec-expe--card">
+            <div className="sec-expe--card__1">asd</div>
+          </div>
+        </section> */}
       </main>
     </>
   );

@@ -1,61 +1,61 @@
-.nav-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5rem;
+.nav-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem;
 }
 
-.nav-navbar{
-    display: inline-block;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    background-color: #161617cc;
-    text-align: center;
-    padding: 1.5rem 0 ;
+.nav-navbar {
+  display: inline-block;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #161617cc;
+  text-align: center;
+  padding: 1.5rem 0;
 
-   &__details {
+  &__details {
     &:visited,
-    &:link{
+    &:link {
+      text-decoration: none;
+      color: #ffffffcc;
+      font-size: 1.5rem;
+      font-weight: 450;
+      margin-left: 4rem;
+    }
+  }
+  @media (max-width: 600px) {
+    &__details {
+      &:visited,
+      &:link {
         text-decoration: none;
         color: #ffffffcc;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 450;
         margin-left: 4rem;
+      }
     }
-   }
-   @media (max-width:600px) {
-    &__details {
-        &:visited,
-        &:link{
-            text-decoration: none;
-            color: #ffffffcc;
-            font-size: 1.2rem;
-            font-weight: 450;
-            margin-left: 4rem;
-        }
-       }
   }
 }
 
-.ind-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5rem;
+.ind-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 6rem;
 }
 
-.ind-nav-navbar{
-    display: block;
-    position: fixed;
-    left: 0;
-    z-index: 1000;
-    width: 100%;
-    background-color: #ffff;
-    text-align: center;
-    padding: 0.5rem 0 ;
+.ind-nav-navbar {
+  display: block;
+  position: static;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: #ffff;
+  text-align: center;
+  padding: 0.5rem 0;
 
-    &__details {
-        height: 5rem;
-    }
+  &__details {
+    height: 5rem;
+  }
 }
