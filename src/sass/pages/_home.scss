@@ -163,10 +163,6 @@ main {
     font-size: 2rem;
     &__text-class-style {
       font-weight: 550;
-      &:hover {
-        // color: #28b485;
-        // transition: 0.2s all ease-out
-      }
     }
   }
 }
@@ -236,9 +232,6 @@ progress::-webkit-progress-bar {
 progress::-webkit-progress-value {
   background-color: #f9bc61;
   border-radius: 7px;
-}
-progress::-moz-progress-bar {
-  /* style rules */
 }
 
 .sec-tech {

@@ -195,6 +195,7 @@ main {
 .sec-intro--summary__text-class-style {
   font-weight: 550;
 }
+
 p {
   padding: 1rem;
   color: #777;
@@ -265,10 +266,6 @@ progress::-webkit-progress-bar {
 progress::-webkit-progress-value {
   background-color: #f9bc61;
   border-radius: 7px;
-}
-
-progress::-moz-progress-bar {
-  /* style rules */
 }
 
 .sec-tech {
