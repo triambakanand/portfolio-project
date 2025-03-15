@@ -280,6 +280,26 @@ p {
     font-size: 2rem;
   }
 }
+@media (max-width: 600px) {
+  .card__side--front::before {
+    position: absolute;
+    color: #999;
+    content: "Click Me";
+    font-size: 0.7rem;
+    right: 1rem;
+    top: 0.5rem;
+  }
+}
+@media ((min-width: 600px) and (max-width: 1250px)) {
+  .card__side--front::before {
+    position: absolute;
+    color: #999;
+    content: "Click Me";
+    font-size: 1rem;
+    right: 1rem;
+    top: 0.5rem;
+  }
+}
 .card__side--back {
   transform: rotateY(180deg);
 }
