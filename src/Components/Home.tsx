@@ -7,25 +7,25 @@ const Home: React.FC = () => {
 
       <main>
         <section className="sec-main">
-          <div className="sec-main--div">
-            <span className="sec-main--intro">Welcome To My Portfolio</span>
+          <div className="sec-main__div">
+            <span className="sec-main__intro">Welcome To My Portfolio</span>
           </div>
-          <section className="sec-main--details">
-            <div className="sec-main--border">
-              <span className="sec-main--goldText sec-main--fullName">
+          <section className="sec-main__details">
+            <div className="sec-main__border">
+              <span className="sec-main__goldText sec-main__fullName">
                 Triambak Anand
               </span>
               <div style={{ display: "grid", justifyContent: "center" }}>
-                <span className="sec-main--goldText sec-main--role">
+                <span className="sec-main__goldText sec-main__role">
                   CSE Senior Analyst
-                  <hr className="sec-main--hrGold" />
+                  <hr className="sec-main__hrGold" />
                 </span>
               </div>
-              <span className="sec-main--goldText gap">
+              <span className="sec-main__goldText gap">
                 <i className="fa-solid fa-envelope"></i>
                 &nbsp;triambakanand@gmail.com
               </span>
-              <span className="sec-main--goldText gap">
+              <span className="sec-main__goldText gap">
                 <i className="fa-brands fa-linkedin"></i>
                 &nbsp;
                 <a
@@ -37,7 +37,7 @@ const Home: React.FC = () => {
                   linkedin.com/in/triambakanand
                 </a>
               </span>
-              <span className="sec-main--goldText gap">
+              <span className="sec-main__goldText gap">
                 <i className="fa-brands fa-github"></i>
                 &nbsp;
                 <a
@@ -49,28 +49,28 @@ const Home: React.FC = () => {
                   github.com/triambakanand
                 </a>
               </span>
-              <span className="sec-main--goldText gap">
-                <i className="fa-solid fa-phone"></i> &nbsp;91-9588665698
-              </span>
-              <span className="sec-main--goldText gap">
+              {/* <span className="sec-main--goldText gap">
+                <i className="fa-solid fa-phone"></i> &nbsp;
+              </span> */}
+              <span className="sec-main__goldText gap">
                 <i className="fa-solid fa-location-dot"></i> &nbsp;Pune, India
               </span>
             </div>
           </section>
         </section>
         <section className="sec-intro">
-          <div className="sec-intro--div">
-            <span className="sec-intro--intro">
+          <div className="sec-intro__div">
+            <span className="sec-intro__intro">
               <hr />
               Introduction
               <hr />
             </span>
           </div>
-          <div className="sec-intro--summary">
+          <div className="sec-intro__summary">
             <p>
               Passionate
               <span
-                className="sec-intro--summary__text-class-style"
+                className="sec-intro__summary--text-class-style"
                 style={{ color: "#28b485" }}
               >
                 {" "}
@@ -78,7 +78,7 @@ const Home: React.FC = () => {
               </span>{" "}
               with more than
               <span
-                className="sec-intro--summary__text-class-style"
+                className="sec-intro__summary--text-class-style"
                 style={{ color: "#28b485" }}
               >
                 {" "}
@@ -92,7 +92,7 @@ const Home: React.FC = () => {
             <p>
               Interacting with clients and providing them{" "}
               <span
-                className="sec-intro--summary__text-class-style"
+                className="sec-intro__summary--text-class-style"
                 style={{ color: "#28b485" }}
               >
                 efficient business solutions
@@ -102,7 +102,7 @@ const Home: React.FC = () => {
             <p>
               Handled a{" "}
               <span
-                className="sec-intro--summary__text-class-style"
+                className="sec-intro__summary--text-class-style"
                 style={{ color: "#28b485" }}
               >
                 team of 4-5 members
@@ -117,8 +117,8 @@ const Home: React.FC = () => {
         </section>
 
         <section className="sec-keyskills">
-          <div className="sec-keyskills--div">
-            <span className="sec-keyskills--keyskills">
+          <div className="sec-keyskills__div">
+            <span className="sec-keyskills__keyskills">
               <hr />
               Key Skills
               <hr />
@@ -247,338 +247,202 @@ const Home: React.FC = () => {
         </section>
 
         <section className="sec-tech">
-          <div className="sec-tech--div">
-            <span className="sec-tech--techSkills">
+          <div className="sec-tech__div">
+            <span className="sec-tech__techSkills">
               <hr />
               Technical Skills
               <hr />
             </span>
           </div>
 
-          <div className="sec-tech--card">
-            {/* <div className="sec-tech--card__1">
-              <div className="sec-tech--heading">
+          <div className="sec-tech__card">
+            <div className="sec-tech__card--1">
+              <div className="sec-tech__heading">
                 &#8284;Technologies&#8284;
                 <hr style={{ border: "1px solid #f9bc61" }} />
               </div>
-              <div className="container">
-                <div
-                  className="percent"
-                  data-text="HTML"
-                  style={{ "--num": 85 } as React.CSSProperties}
-                >
-                  <div className="dot"></div>
-                  <svg>
-                    <circle cx="70" cy="70" r="70"></circle>
-                    <circle cx="70" cy="70" r="70"></circle>
-                  </svg>
-                </div>
-                <div
-                  className="percent"
-                  data-text="HTML"
-                  style={{ "--num": 76 } as React.CSSProperties}
-                >
-                  <div className="dot"></div>
-                  <svg>
-                    <circle cx="70" cy="70" r="70"></circle>
-                    <circle cx="70" cy="70" r="70"></circle>
-                  </svg>
-                </div>
-                <div
-                  className="percent"
-                  data-text="HTML"
-                  style={{ "--num": 32 } as React.CSSProperties}
-                >
-                  <div className="dot"></div>
-                  <svg>
-                    <circle cx="70" cy="70" r="70"></circle>
-                    <circle cx="70" cy="70" r="70"></circle>
-                  </svg>
-                </div>
-                <div
-                  className="percent"
-                  data-text="HTML"
-                  style={{ "--num": 68 } as React.CSSProperties}
-                >
-                  <div className="dot"></div>
-                  <svg>
-                    <circle cx="70" cy="70" r="70"></circle>
-                    <circle cx="70" cy="70" r="70"></circle>
-                  </svg>
-                </div>
-              </div>
-            </div> */}
-            <div className="sec-tech--card__1">
-              <div className="sec-tech--heading">
-                &#8284;Technologies&#8284;
-                <hr style={{ border: "1px solid #f9bc61" }} />
-              </div>
-              <div className="sec-tech--skills">
+              <div className="sec-tech__skills">
                 <div>
-                  <div className="sec-tech--skill">
+                  <div className="sec-tech__skill">
                     &#8901; Javascript &#8901;
                   </div>
-                  <div className="sec-tech--star">
+                  <div className="sec-tech__star">
                     &#9733;&#9733;&#9733;&#9733;&#9734;
                   </div>
                 </div>
 
                 <div>
-                  <div className="sec-tech--skill">
+                  <div className="sec-tech__skill">
                     &#8901; React.js &#8901;
                   </div>
-                  <div className="sec-tech--star">
+                  <div className="sec-tech__star">
                     &#9733;&#9733;&#9733;&#9733;&#9734;
                   </div>
                 </div>
 
                 <div>
-                  <div className="sec-tech--skill">
+                  <div className="sec-tech__skill">
                     &#8901; Typescript &#8901;
                   </div>
-                  <div className="sec-tech--star">
+                  <div className="sec-tech__star">
                     &#9733;&#9733;&#9733;&#9733;&#9734;
                   </div>
                 </div>
 
                 <div>
-                  <div className="sec-tech--skill">&#8901; Redux &#8901;</div>
-                  <div className="sec-tech--star">
+                  <div className="sec-tech__skill">&#8901; Redux &#8901;</div>
+                  <div className="sec-tech__star">
                     &#9733;&#9733;&#9733;&#9733;&#9734;
                   </div>
                 </div>
 
                 <div>
-                  <div className="sec-tech--skill">&#8901; HTML5 &#8901;</div>
-                  <div className="sec-tech--star">
+                  <div className="sec-tech__skill">&#8901; HTML5 &#8901;</div>
+                  <div className="sec-tech__star">
                     &#9733;&#9733;&#9733;&#9733;&#9734;
                   </div>
                 </div>
 
                 <div>
-                  <div className="sec-tech--skill">&#8901; CSS3 &#8901;</div>
-                  <div className="sec-tech--star">
+                  <div className="sec-tech__skill">&#8901; CSS3 &#8901;</div>
+                  <div className="sec-tech__star">
                     &#9733;&#9733;&#9733;&#9733;&#9734;
                   </div>
                 </div>
 
                 <div>
-                  <div className="sec-tech--skill">&#8901; NodeJs &#8901;</div>
-                  <div className="sec-tech--star">
+                  <div className="sec-tech__skill">&#8901; NodeJs &#8901;</div>
+                  <div className="sec-tech__star">
                     &#9733;&#9733;&#9733;&#9734;&#9734;
                   </div>
                 </div>
 
                 <div>
-                  <div className="sec-tech--skill">
+                  <div className="sec-tech__skill">
                     &#8901; ExpressJs &#8901;
                   </div>
-                  <div className="sec-tech--star">
+                  <div className="sec-tech__star">
                     &#9733;&#9733;&#9733;&#9734;&#9734;
                   </div>
                 </div>
 
                 <div>
-                  <div className="sec-tech--skill">&#8901; MongoDB &#8901;</div>
-                  <div className="sec-tech--star">
+                  <div className="sec-tech__skill">&#8901; MongoDB &#8901;</div>
+                  <div className="sec-tech__star">
                     &#9733;&#9733;&#9734;&#9734;&#9734;
                   </div>
                 </div>
 
                 <div>
-                  <div className="sec-tech--skill">
+                  <div className="sec-tech__skill">
                     &#8901; Mongoose &#8901;
                   </div>
-                  <div className="sec-tech--star">
+                  <div className="sec-tech__star">
                     &#9733;&#9733;&#9734;&#9734;&#9734;
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="sec-tech--card__2">
-              <div className="sec-tech--heading">
+            <div className="sec-tech__card--2">
+              <div className="sec-tech__heading">
                 &#8280;Dev Tools&#8280;
                 <hr style={{ border: "1px solid #f9bc61" }} />
               </div>
-              <div className="sec-tech--skills">
+              <div className="sec-tech__skills">
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; StackHawk &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; Aqua &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; VS Code &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; Webpack &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; Eslint &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; SonarQube &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; Axios &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; Babel &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; GIT &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; Npm/Npx &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; Azure DevOps &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; Prettier &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; Material UI &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; UI Core &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; JWT &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; OAuth 2.0 &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; React-Testing-Library &#8901;
                   </div>
                 </div>
                 <div>
-                  <div className="sec-tech--skill sec-tech--skill__gap">
+                  <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; Jest &#8901;
                   </div>
                 </div>
               </div>
             </div>
-            {/* <div className="sec-tech--heading">Dev Tools</div> */}
           </div>
-
-          {/* <div className="container">
-            <div className="box">
-              <div className="shadow"></div>
-              <div className="content">
-                <div
-                  className="percent"
-                  data-text="HTML"
-                  style={{ "--num": 85 } as React.CSSProperties}
-                >
-                  <div className="dot"></div>
-                  <svg>
-                    <circle cx="70" cy="70" r="70"></circle>
-                    <circle cx="70" cy="70" r="70"></circle>
-                  </svg>
-                </div>
-                <div className="number">
-                  <h2>
-                    85<span>%</span>
-                  </h2>
-                </div>
-              </div>
-            </div>
-
-            <div className="box">
-              <div className="shadow"></div>
-              <div className="content">
-                <div
-                  className="percent"
-                  data-text="CSS"
-                  style={{ "--num": 57 } as React.CSSProperties}
-                >
-                  <div className="dot"></div>
-                  <svg>
-                    <circle cx="70" cy="70" r="70"></circle>
-                    <circle cx="70" cy="70" r="70"></circle>
-                  </svg>
-                </div>
-                <div className="number">
-                  <h2>
-                    57<span>%</span>
-                  </h2>
-                </div>
-              </div>
-            </div>
-
-            <div className="box">
-              <div className="shadow"></div>
-              <div className="content">
-                <div
-                  className="percent"
-                  data-text="JS"
-                  style={{ "--num": 30 } as React.CSSProperties}
-                >
-                  <div className="dot"></div>
-                  <svg>
-                    <circle cx="70" cy="70" r="70"></circle>
-                    <circle cx="70" cy="70" r="70"></circle>
-                  </svg>
-                </div>
-                <div className="number">
-                  <h2>
-                    30<span>%</span>
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div> */}
-
-          {/* Example */}
-          {/* <div className="container">
-            <div
-              className="percent"
-              data-text="HTML"
-              style={{ "--num": 85 } as React.CSSProperties}
-            >
-              <div className="dot"></div>
-              <svg>
-                <circle cx="70" cy="70" r="70"></circle>
-                <circle cx="70" cy="70" r="70"></circle>
-              </svg>
-            </div>
-          </div> */}
         </section>
 
         {/* Work Experience Section */}

@@ -25,21 +25,21 @@ const Navbar: React.FC = () => {
       </div>
       <div className="ind-container">
         <nav className="ind-nav-navbar">
-          <img
+          {/* <img
             className="ind-nav-navbar__details"
             src={nationalEmblem}
             alt="Emblem of India"
-          ></img>
+          ></img> */}
           <img
             className="ind-nav-navbar__details"
             src={indiaFlag}
             alt="Flag of India"
           ></img>
-          <img
+          {/* <img
             className="ind-nav-navbar__details"
             src={nationalEmblem}
             alt="Emblem of India"
-          ></img>
+          ></img> */}
         </nav>
       </div>
     </>
