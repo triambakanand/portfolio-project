@@ -1,18 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio-project/static/css/main.0a908c5c.css",
-    "main.js": "/portfolio-project/static/js/main.f103a736.js",
+    "main.css": "/portfolio-project/static/css/main.36c8f473.css",
+    "main.js": "/portfolio-project/static/js/main.2778eea7.js",
     "static/js/453.1fa56f78.chunk.js": "/portfolio-project/static/js/453.1fa56f78.chunk.js",
     "static/media/mainBanner1.jpg": "/portfolio-project/static/media/mainBanner1.2d8cc460a9df1573939c.jpg",
+    "static/media/nodejs.png": "/portfolio-project/static/media/nodejs.a0c2d15963cb4242f3f3.png",
+    "static/media/javascript.png": "/portfolio-project/static/media/javascript.7596b2c7b062d00513f9.png",
+    "static/media/react.png": "/portfolio-project/static/media/react.39843deac582c99604fb.png",
+    "static/media/redux.png": "/portfolio-project/static/media/redux.68ce8dbf879b833a5414.png",
+    "static/media/expressjs.png": "/portfolio-project/static/media/expressjs.723647d089128d5b39ec.png",
+    "static/media/webpack.png": "/portfolio-project/static/media/webpack.7862b07b688255262ffd.png",
+    "static/media/eslint.png": "/portfolio-project/static/media/eslint.cb6eaac4144860978c6f.png",
+    "static/media/git.png": "/portfolio-project/static/media/git.c1c22a67c09a38cac29b.png",
     "static/media/RusticRoadway.otf": "/portfolio-project/static/media/RusticRoadway.55a61c5c630dbc64df28.otf",
+    "static/media/jwt.png": "/portfolio-project/static/media/jwt.447453fb038839403bd3.png",
+    "static/media/typescript.png": "/portfolio-project/static/media/typescript.1033905204d6a22054df.png",
+    "static/media/mongodb.png": "/portfolio-project/static/media/mongodb.bb3674c5dc4daf3b7b09.png",
+    "static/media/jest.png": "/portfolio-project/static/media/jest.19b2c2607b723750e092.png",
+    "static/media/prettier.png": "/portfolio-project/static/media/prettier.82ba4c1ea96f42c772c8.png",
+    "static/media/axios.png": "/portfolio-project/static/media/axios.72cad93c87f13a75d747.png",
     "static/media/flag.png": "/portfolio-project/static/media/flag.f7eeb7cc4336acbbf114.png",
     "index.html": "/portfolio-project/index.html",
-    "main.0a908c5c.css.map": "/portfolio-project/static/css/main.0a908c5c.css.map",
-    "main.f103a736.js.map": "/portfolio-project/static/js/main.f103a736.js.map",
+    "main.36c8f473.css.map": "/portfolio-project/static/css/main.36c8f473.css.map",
+    "main.2778eea7.js.map": "/portfolio-project/static/js/main.2778eea7.js.map",
     "453.1fa56f78.chunk.js.map": "/portfolio-project/static/js/453.1fa56f78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a908c5c.css",
-    "static/js/main.f103a736.js"
+    "static/css/main.36c8f473.css",
+    "static/js/main.2778eea7.js"
   ]
 }
