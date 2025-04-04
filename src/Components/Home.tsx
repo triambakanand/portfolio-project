@@ -18,16 +18,16 @@ import stackhawkImg from "../Assets/stackhawk.png";
 import sonarqubeImg from "../Assets/sonarqube.png";
 import html5Img from "../Assets/html5.jpg";
 import css3Img from "../Assets/css3.png";
-import aquaImg from "../Assets/aqua.png";
 import vscodeImg from "../Assets/vscode.png";
 import babelImg from "../Assets/babel.png";
 import otelImg from "../Assets/otel.png";
 import mongooseImg from "../Assets/mongoose.png";
-import rtlImg from "../Assets/rtl.png";
-import muiImg from "../Assets/materialui.png";
 import outh2Img from "../Assets/oauth2.png";
 import azuredevopsImg from "../Assets/azure devops.png";
 import elasticImg from "../Assets/elasticapm.png";
+import rtlImg from "../Assets/rtl.png";
+import muiImg from "../Assets/materialui.png";
+import aquaImg from "../Assets/aqua.png";
 
 const Home: React.FC = () => {
   return (
@@ -485,7 +485,7 @@ const Home: React.FC = () => {
         </section>
 
         {/* Work Experience Section */}
-        <section className="sec-expe">
+        {/* <section className="sec-expe">
           <div className="sec-expe--div">
             <span className="sec-expe--expeSkills">
               <hr />
@@ -496,7 +496,7 @@ const Home: React.FC = () => {
           <div className="sec-expe--card">
             <div className="sec-expe--card__1">asd</div>
           </div>
-        </section>
+        </section> */}
 
         <section className="gallery-container">
           <section className="gallery">
@@ -582,7 +582,7 @@ const Home: React.FC = () => {
                 className="gallery__img"
               />
             </figure>
-            {/*<figure className="gallery__item gallery__item--15">
+            <figure className="gallery__item gallery__item--15">
               <img
                 src={npmnpxImg}
                 alt="Gallery img 15"
@@ -619,7 +619,7 @@ const Home: React.FC = () => {
             </figure>
             <figure className="gallery__item gallery__item--20">
               <img
-                src={aquaImg}
+                src={outh2Img}
                 alt="Gallery img 20"
                 className="gallery__img"
               />
@@ -644,7 +644,42 @@ const Home: React.FC = () => {
                 alt="Gallery img 23"
                 className="gallery__img"
               />
-            </figure> */}
+            </figure>
+            <figure className="gallery__item gallery__item--24">
+              <img
+                src={mongooseImg}
+                alt="Gallery img 24"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--25">
+              <img
+                src={azuredevopsImg}
+                alt="Gallery img 25"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--26">
+              <img
+                src={aquaImg}
+                alt="Gallery img 26"
+                className="gallery__img"
+              />
+            </figure>
+
+            <figure className="gallery__item gallery__item--27">
+              <img
+                src={elasticImg}
+                alt="Gallery img 27"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--28">
+              <img src={rtlImg} alt="Gallery img 28" className="gallery__img" />
+            </figure>
+            <figure className="gallery__item gallery__item--29">
+              <img src={muiImg} alt="Gallery img 29" className="gallery__img" />
+            </figure>
           </section>
         </section>
       </main>
