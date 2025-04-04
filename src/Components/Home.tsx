@@ -1,4 +1,33 @@
 import "../css/style.css";
+import jsImg from "../Assets/javascript.png";
+import reactImg from "../Assets/react.png";
+import esLintImg from "../Assets/eslint.png";
+import gitImg from "../Assets/git.png";
+import nodejsImg from "../Assets/nodejs.png";
+import axiosImg from "../Assets/axios.png";
+import prettierImg from "../Assets/prettier.png";
+import tsImg from "../Assets/typescript.png";
+import jwtImg from "../Assets/jwt.png";
+import webpackImg from "../Assets/webpack.png";
+import expressImg from "../Assets/expressjs.png";
+import mongdoDbImg from "../Assets/mongodb.png";
+import jestImg from "../Assets/jest.png";
+import npmnpxImg from "../Assets/npm_npx.png";
+import reduxImg from "../Assets/redux.png";
+import stackhawkImg from "../Assets/stackhawk.png";
+import sonarqubeImg from "../Assets/sonarqube.png";
+import html5Img from "../Assets/html5.jpg";
+import css3Img from "../Assets/css3.png";
+import aquaImg from "../Assets/aqua.png";
+import vscodeImg from "../Assets/vscode.png";
+import babelImg from "../Assets/babel.png";
+import otelImg from "../Assets/otel.png";
+import mongooseImg from "../Assets/mongoose.png";
+import rtlImg from "../Assets/rtl.png";
+import muiImg from "../Assets/materialui.png";
+import outh2Img from "../Assets/oauth2.png";
+import azuredevopsImg from "../Assets/azure devops.png";
+import elasticImg from "../Assets/elasticapm.png";
 
 const Home: React.FC = () => {
   return (
@@ -432,12 +461,22 @@ const Home: React.FC = () => {
                 </div>
                 <div>
                   <div className="sec-tech__skill sec-tech__skill--gap">
-                    &#8901; React-Testing-Library &#8901;
+                    &#8901; React-Testing-library &#8901;
                   </div>
                 </div>
                 <div>
                   <div className="sec-tech__skill sec-tech__skill--gap">
                     &#8901; Jest &#8901;
+                  </div>
+                </div>
+                <div>
+                  <div className="sec-tech__skill sec-tech__skill--gap">
+                    &#8901; Elastic-APM &#8901;
+                  </div>
+                </div>
+                <div>
+                  <div className="sec-tech__skill sec-tech__skill--gap">
+                    &#8901; Open-Telemetry &#8901;
                   </div>
                 </div>
               </div>
@@ -446,7 +485,7 @@ const Home: React.FC = () => {
         </section>
 
         {/* Work Experience Section */}
-        {/* <section className="sec-expe">
+        <section className="sec-expe">
           <div className="sec-expe--div">
             <span className="sec-expe--expeSkills">
               <hr />
@@ -457,7 +496,157 @@ const Home: React.FC = () => {
           <div className="sec-expe--card">
             <div className="sec-expe--card__1">asd</div>
           </div>
-        </section> */}
+        </section>
+
+        <section className="gallery-container">
+          <section className="gallery">
+            <figure className="gallery__item gallery__item--1">
+              <img
+                src={reduxImg}
+                alt="Gallery img 1"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--2">
+              <img src={jsImg} alt="Gallery img 2" className="gallery__img" />
+            </figure>
+            <figure className="gallery__item gallery__item--3">
+              <img
+                src={esLintImg}
+                alt="Gallery img 3"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--4">
+              <img src={gitImg} alt="Gallery img 4" className="gallery__img" />
+            </figure>
+            <figure className="gallery__item gallery__item--5">
+              <img
+                src={reactImg}
+                alt="Gallery img 5"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--6">
+              <img
+                src={axiosImg}
+                alt="Gallery img 6"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--7">
+              <img
+                src={prettierImg}
+                alt="Gallery img 7"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--8">
+              <img src={tsImg} alt="Gallery img 8" className="gallery__img" />
+            </figure>
+            <figure className="gallery__item gallery__item--9">
+              <img
+                src={webpackImg}
+                alt="Gallery img 9"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--10">
+              <img src={jwtImg} alt="Gallery img 10" className="gallery__img" />
+            </figure>
+            <figure className="gallery__item gallery__item--11">
+              <img
+                src={mongdoDbImg}
+                alt="Gallery img 11"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--12">
+              <img
+                src={expressImg}
+                alt="Gallery img 12"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--13">
+              <img
+                src={nodejsImg}
+                alt="Gallery img 13"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--14">
+              <img
+                src={jestImg}
+                alt="Gallery img 14"
+                className="gallery__img"
+              />
+            </figure>
+            {/*<figure className="gallery__item gallery__item--15">
+              <img
+                src={npmnpxImg}
+                alt="Gallery img 15"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--16">
+              <img
+                src={sonarqubeImg}
+                alt="Gallery img 16"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--17">
+              <img
+                src={html5Img}
+                alt="Gallery img 17"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--18">
+              <img
+                src={stackhawkImg}
+                alt="Gallery img 18"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--19">
+              <img
+                src={babelImg}
+                alt="Gallery img 19"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--20">
+              <img
+                src={aquaImg}
+                alt="Gallery img 20"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--21">
+              <img
+                src={vscodeImg}
+                alt="Gallery img 21"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--22">
+              <img
+                src={otelImg}
+                alt="Gallery img 22"
+                className="gallery__img"
+              />
+            </figure>
+            <figure className="gallery__item gallery__item--23">
+              <img
+                src={css3Img}
+                alt="Gallery img 23"
+                className="gallery__img"
+              />
+            </figure> */}
+          </section>
+        </section>
       </main>
     </>
   );
