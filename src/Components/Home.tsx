@@ -28,6 +28,10 @@ import elasticImg from "../Assets/elasticapm.png";
 import rtlImg from "../Assets/rtl.png";
 import muiImg from "../Assets/materialui.png";
 import aquaImg from "../Assets/aqua.png";
+import accImg from "../Assets/accImg.png";
+import infImg from "../Assets/infImg.png";
+import inImg from "../Assets/inImg.png";
+import persiImg from "../Assets/Persistent_Systems_Logo.svg";
 
 const Home: React.FC = () => {
   return (
@@ -485,18 +489,84 @@ const Home: React.FC = () => {
         </section>
 
         {/* Work Experience Section */}
-        {/* <section className="sec-expe">
-          <div className="sec-expe--div">
-            <span className="sec-expe--expeSkills">
+        <section className="sec-expe">
+          <div className="sec-expe__div">
+            <span className="sec-expe__expeSkills">
               <hr />
               Work Experience
               <hr />
             </span>
           </div>
-          <div className="sec-expe--card">
-            <div className="sec-expe--card__1">asd</div>
+          <div className="sec-expe__container">
+            <div className="sec-expe__grid1">
+              <div className="sec-expe__content">
+                <img
+                  src={accImg}
+                  alt="Accenture logo"
+                  className="sec-expe__companyLogo--1"
+                />
+                <div className="sec-expe__cw">
+                  Currently Working - Since Sept 2024
+                </div>
+                <div className="sec-expe__details">
+                  <span className="sec-expe__details--1">
+                    <b style={{ color: "#000" }}>Position:</b> Custom Software
+                    Engineering Senior Analyst
+                  </span>
+                  <span className="sec-expe__details--2">
+                    <b style={{ color: "#000" }}>Role:</b> Frontend Team Lead
+                    and Engineer
+                  </span>
+                  <span className="sec-expe__details--3">
+                    <b style={{ color: "#000" }}>Project:</b> METROLINX
+                  </span>
+                </div>
+
+                {/* <span className="sec-expe__details--1">
+                  Currently Working - Since Sept 2024
+                </span>
+                <span className="sec-expe__details--2">
+                  <b>Position:</b> Custom Software Engineering Senior Analyst
+                </span>
+                <span className="sec-expe__details--3">
+                  <b>Role:</b> Frontend Team Lead and Engineer
+                </span> */}
+              </div>
+            </div>
+            <div className="sec-expe__grid2"></div>
+            <div className="sec-expe__box"></div>
           </div>
-        </section> */}
+
+          <div className="sec-expe__container">
+            <div className="sec-expe__grid1">
+              {/* Sample Code Below*/}
+              <div className="sec-expe__content">
+                <img
+                  src={inImg}
+                  alt="Accenture logo"
+                  className="sec-expe__companyLogo--2"
+                />
+              </div>
+            </div>
+            <div className="sec-expe__grid2"></div>
+            <div className="sec-expe__box"></div>
+          </div>
+
+          <div className="sec-expe__container">
+            <div className="sec-expe__grid1">
+              {/* Sample Code Below*/}
+              <div className="sec-expe__content">
+                <img
+                  src={persiImg}
+                  alt="Accenture logo"
+                  className="sec-expe__companyLogo--3"
+                />
+              </div>
+            </div>
+            <div className="sec-expe__grid2"></div>
+            <div className="sec-expe__box"></div>
+          </div>
+        </section>
 
         <section className="gallery-container">
           <section className="gallery">
