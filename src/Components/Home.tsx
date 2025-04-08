@@ -505,45 +505,69 @@ const Home: React.FC = () => {
                   alt="Accenture logo"
                   className="sec-expe__companyLogo--1"
                 />
-                <div className="sec-expe__cw">
+                <div className="sec-expe__content__cw">
                   Currently Working - Since Sept 2024
                 </div>
-                <div className="sec-expe__details">
-                  <span className="sec-expe__details--1">
-                    <b style={{ color: "#000" }}>Position:</b> Custom Software
-                    Engineering Senior Analyst
-                  </span>
-                  <span className="sec-expe__details--2">
-                    <b style={{ color: "#000" }}>Role:</b> Frontend Team Lead
-                    and Engineer
-                  </span>
-                  <span className="sec-expe__details--3">
-                    <b style={{ color: "#000" }}>Project:</b> METROLINX
-                  </span>
+                <div className="sec-expe__content__details">
+                  <b style={{ color: "#000" }}>Position:</b> Custom Software
+                  Engineering Senior Analyst
                 </div>
-
-                {/* <span className="sec-expe__details--1">
-                  Currently Working - Since Sept 2024
-                </span>
-                <span className="sec-expe__details--2">
-                  <b>Position:</b> Custom Software Engineering Senior Analyst
-                </span>
-                <span className="sec-expe__details--3">
-                  <b>Role:</b> Frontend Team Lead and Engineer
-                </span> */}
+                <div className="sec-expe__content__details sec-expe__content__details--1">
+                  <b style={{ color: "#000" }}>Role:</b> Frontend Team Lead and
+                  Engineer
+                </div>
+                <div className="sec-expe__content__details">
+                  <b style={{ color: "#000" }}>Project:</b> METROLINX
+                </div>
+                <div className="sec-expe__content__details">
+                  <b style={{ color: "#000" }}>Project Description:</b>{" "}
+                  Developed integrated Frontend application which brings various
+                  types of PRESTO applications into a central hub for better
+                  accessbility and reach. Main components handled from frontend
+                  side are REACT, Azure B2B SSO Login, Azure COSMOS DB, Azure
+                  Web App Services and Azure DevOps for deployment
+                </div>
+                <div className="sec-expe__content__details sec-expe__content__details--2">
+                  <b style={{ color: "#000" }}>Key Points</b>
+                </div>
+                <div className="sec-expe__content__details sec-expe__content__details--3">
+                  <ul>
+                    <li className="sec-expe__content__details__bulletPoint">
+                      Converted wireframes into highly responsive UI.
+                    </li>
+                    <li className="sec-expe__content__details__bulletPoint">
+                      Provided Client efficient architectural flow.
+                    </li>
+                    <li className="sec-expe__content__details__bulletPoint">
+                      Implemented business solutions to provide maximum
+                      throughput
+                    </li>
+                    <li className="sec-expe__content__details__bulletPoint">
+                      Implemented Azure B2B SSO feature for Login and Session
+                      Management.
+                    </li>
+                    <li className="sec-expe__content__details__bulletPoint">
+                      Made UI AODA/WCAG compliant.
+                    </li>
+                    <li className="sec-expe__content__details__bulletPoint">
+                      Achieved 100% in both branch and line coverage of Unit
+                      Test Cases.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div className="sec-expe__grid2"></div>
             <div className="sec-expe__box"></div>
           </div>
 
+          {/* Sample Code Below*/}
           <div className="sec-expe__container">
             <div className="sec-expe__grid1">
-              {/* Sample Code Below*/}
               <div className="sec-expe__content">
                 <img
                   src={inImg}
-                  alt="Accenture logo"
+                  alt="Infy logo"
                   className="sec-expe__companyLogo--2"
                 />
               </div>
@@ -554,11 +578,10 @@ const Home: React.FC = () => {
 
           <div className="sec-expe__container">
             <div className="sec-expe__grid1">
-              {/* Sample Code Below*/}
               <div className="sec-expe__content">
                 <img
                   src={persiImg}
-                  alt="Accenture logo"
+                  alt="Persi logo"
                   className="sec-expe__companyLogo--3"
                 />
               </div>
