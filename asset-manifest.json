@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-project/static/css/main.8fb75b2b.css",
-    "main.js": "/portfolio-project/static/js/main.3cb2e475.js",
+    "main.css": "/portfolio-project/static/css/main.456609c5.css",
+    "main.js": "/portfolio-project/static/js/main.42326bd2.js",
     "static/js/453.1fa56f78.chunk.js": "/portfolio-project/static/js/453.1fa56f78.chunk.js",
     "static/media/mainBanner1.jpg": "/portfolio-project/static/media/mainBanner1.2d8cc460a9df1573939c.jpg",
     "static/media/nodejs.png": "/portfolio-project/static/media/nodejs.a0c2d15963cb4242f3f3.png",
@@ -38,12 +38,12 @@
     "static/media/accImg.png": "/portfolio-project/static/media/accImg.d884b4dd189c7ab7baaf.png",
     "static/media/Persistent_Systems_Logo.svg": "/portfolio-project/static/media/Persistent_Systems_Logo.5e8ad7223562ee057724c1cd04979377.svg",
     "index.html": "/portfolio-project/index.html",
-    "main.8fb75b2b.css.map": "/portfolio-project/static/css/main.8fb75b2b.css.map",
-    "main.3cb2e475.js.map": "/portfolio-project/static/js/main.3cb2e475.js.map",
+    "main.456609c5.css.map": "/portfolio-project/static/css/main.456609c5.css.map",
+    "main.42326bd2.js.map": "/portfolio-project/static/js/main.42326bd2.js.map",
     "453.1fa56f78.chunk.js.map": "/portfolio-project/static/js/453.1fa56f78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fb75b2b.css",
-    "static/js/main.3cb2e475.js"
+    "static/css/main.456609c5.css",
+    "static/js/main.42326bd2.js"
   ]
 }
