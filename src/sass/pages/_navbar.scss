@@ -4,6 +4,7 @@
   grid-template-rows: 5rem;
 }
 
+// #work - Check props in inspect element - showing invalid properties --> LATER
 .nav-navbar {
   display: inline-block;
   position: fixed;
@@ -22,8 +23,10 @@
       color: #ffffffcc;
       font-size: 1.5rem;
       font-weight: 450;
-      margin-left: 4rem;
     }
+  }
+  &__mrg {
+    margin-left: 4rem;
   }
   @media (max-width: 600px) {
     &__details {
@@ -33,7 +36,6 @@
         color: #ffffffcc;
         font-size: 1.2rem;
         font-weight: 450;
-        margin-left: 4rem;
       }
     }
   }

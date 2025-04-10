@@ -9,16 +9,25 @@ const Navbar: React.FC = () => {
       <div className="nav-container">
         <nav className="nav-navbar">
           {/* check later */}
-          <Link className="nav-navbar__details" to="/portfolio-project">
+          <Link className="nav-navbar__details " to="/portfolio-project">
             Home
           </Link>
-          <Link className="nav-navbar__details" to="/portfolio-learning">
+          <Link
+            className="nav-navbar__details nav-navbar__mrg"
+            to="/portfolio-learning"
+          >
             Learning
           </Link>
-          <Link className="nav-navbar__details" to="/portfolio-trending">
+          <Link
+            className="nav-navbar__details nav-navbar__mrg"
+            to="/portfolio-trending"
+          >
             Trending
           </Link>
-          <Link className="nav-navbar__details" to="/portfolio-contact">
+          <Link
+            className="nav-navbar__details nav-navbar__mrg"
+            to="/portfolio-contact"
+          >
             Contact
           </Link>
         </nav>

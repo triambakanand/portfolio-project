@@ -91,6 +91,8 @@ const Home: React.FC = () => {
             </div>
           </section>
         </section>
+
+        {/*  Introduction Section */}
         <section className="sec-intro">
           <div className="sec-intro__div">
             <span className="sec-intro__intro">
@@ -149,6 +151,7 @@ const Home: React.FC = () => {
           </div>
         </section>
 
+        {/* Key Skills Section */}
         <section className="sec-keyskills">
           <div className="sec-keyskills__div">
             <span className="sec-keyskills__keyskills">
@@ -279,6 +282,7 @@ const Home: React.FC = () => {
           </div>
         </section>
 
+        {/* Technical Skills Section */}
         <section className="sec-tech">
           <div className="sec-tech__div">
             <span className="sec-tech__techSkills">
@@ -480,7 +484,7 @@ const Home: React.FC = () => {
                 </div>
                 <div>
                   <div className="sec-tech__skill sec-tech__skill--gap">
-                    &#8901; Open-Telemetry &#8901;
+                    &#8901; OpenTelemetry &#8901;
                   </div>
                 </div>
               </div>
@@ -498,6 +502,267 @@ const Home: React.FC = () => {
             </span>
           </div>
           <div className="sec-expe__container">
+            <div
+              className="sec-expe__container__cmLogo"
+              data-expcard="Exp Card 3"
+            >
+              <img
+                src={accImg}
+                alt="Accenture logo"
+                className="sec-expe__container__companyLogo--1"
+              />
+            </div>
+            <div className="sec-expe__container__card">
+              <div className="sec-expe__container__card__cw">
+                Sept 2024 - Currently Working
+              </div>
+              <div className="sec-expe__container__card__details">
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}> Position </b>
+                  <div className="sec-expe__container__card__details__content--1">
+                    Custom Software Engineering Senior Analyst
+                  </div>
+                </div>
+
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}> Role </b>
+                  <div className="sec-expe__container__card__details__content--1">
+                    Frontend Team Lead and Engineer
+                  </div>
+                </div>
+
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}> Project </b>
+                  <div className="sec-expe__container__card__details__content--2">
+                    METROLINX
+                  </div>
+                </div>
+
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}>Project Description</b>
+                  <div className="sec-expe__container__card__details__content--2">
+                    Developed integrated Frontend application which brings
+                    various types of PRESTO applications into a central hub for
+                    better accessbility and reach. Main components handled from
+                    frontend side are REACT, Azure B2B SSO Login, Azure COSMOS
+                    DB, Azure Web App Services and Azure DevOps for deployment.
+                  </div>
+                </div>
+
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}>Key Points</b>
+                  <div className="sec-expe__container__card__details__keypoints">
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Converted wireframes into highly responsive UI.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Provided Client efficient architectural flow.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Implemented business solutions to provide maximum
+                      throughput
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Implemented Azure B2B SSO feature for Login and Session
+                      Management.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Implemented business solutions to provide maximum
+                      throughput
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Made UI AODA/WCAG compliant.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Achieved 100% in both branch and line coverage of Unit
+                      Test Cases.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="sec-expe__container">
+            <div
+              className="sec-expe__container__cmLogo"
+              data-expcard="Exp Card 2"
+            >
+              <img
+                src={inImg}
+                alt="Infy logo"
+                className="sec-expe__container__companyLogo--2"
+              />
+            </div>
+            <div className="sec-expe__container__card">
+              <div className="sec-expe__container__card__cw">
+                Jan 2023 - Sept 2024
+              </div>
+              <div className="sec-expe__container__card__details">
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}> Position </b>
+                  <div className="sec-expe__container__card__details__content--1">
+                    Associate Consultant - Frontend
+                  </div>
+                </div>
+
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}> Role </b>
+                  <div className="sec-expe__container__card__details__content--1">
+                    Frontend Senior Project Engineer
+                  </div>
+                </div>
+
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}> Project </b>
+                  <div className="sec-expe__container__card__details__content--2">
+                    VERIZON - Optix US
+                  </div>
+                </div>
+
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}>Project Description</b>
+                  <div className="sec-expe__container__card__details__content--2">
+                    Verizon Optix is an internal tool used by verizon agents to
+                    place telecommunication system orders like TV cable, Data
+                    cable etc. There were primarly 3 different applications. We
+                    Converted entire AngularJS based frontend into React and
+                    Redux based frontend by migrating various APIs, UI
+                    functionalities and also adding additional features for
+                    optimizing the performance by using various different
+                    methodologies based on react hooks.
+                  </div>
+                </div>
+
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}>Key Points</b>
+                  <div className="sec-expe__container__card__details__keypoints">
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Created boiler plate for the entire frontend architecture.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Managed and integrated end to end code flow for better
+                      code understanding.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Client interaction over various new features
+                      implementation.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Provided business solutions to Client for having enhanced
+                      User experience.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Achieved 90+% coverage in Unit Testing using React Testing
+                      library.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Collaberated with multiple backend teams, outsourcing
+                      teams, third party application teams to integrate and
+                      build and entire new UI following all code standards.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="sec-expe__container">
+            <div
+              className="sec-expe__container__cmLogo "
+              data-expcard="Exp Card 1"
+            >
+              <img
+                src={persiImg}
+                alt="Persi logo"
+                className="sec-expe__container__companyLogo--3"
+              />
+            </div>
+            <div className="sec-expe__container__card">
+              <div className="sec-expe__container__card__cw">
+                Nov 2020 - Jan 2023
+              </div>
+              <div className="sec-expe__container__card__details">
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}> Position </b>
+                  <div className="sec-expe__container__card__promoted">
+                    Promoted
+                  </div>
+                  <div className="sec-expe__container__card__details__content--1">
+                    Senior Software Engineer{" "}
+                    <span style={{ color: "#28b485" }}>&#8592;</span> Software
+                    Engineer
+                  </div>
+                </div>
+
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}> Role </b>
+                  <div className="sec-expe__container__card__details__content--1">
+                    Frontend Software Engineer
+                  </div>
+                </div>
+
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}> Project </b>
+                  <div className="sec-expe__container__card__details__content--2">
+                    ALTERYX
+                  </div>
+                </div>
+
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}>Project Description</b>
+                  <div className="sec-expe__container__card__details__content--2">
+                    Alteryx, Inc. is software company with offices worldwide.
+                    The company's products are used for data science and
+                    analytics. As machine learning requires a lot of data, we
+                    developed connectors of exact replica of SharePoint,
+                    OneDrive, Box, DropBox, Adobe analytics, GoogleDrive and
+                    many more cloud services. Which fetches user data through
+                    APIs and do processing on it. We developed connectors using
+                    REACT-Typescript in the frontend side and python in the
+                    backend.
+                  </div>
+                </div>
+
+                <div className="sec-expe__container__card__details__content">
+                  <b style={{ color: "#777" }}>Key Points</b>
+                  <div className="sec-expe__container__card__details__keypoints">
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Translated designs & wireframes into high-quality code.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Provided client business solutions which indeed improved
+                      performance of the applications.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Developed reusable components fully based on React
+                      functional components.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Communication with client for solving their technical
+                      queries and understanding future feature-enhancement
+                      requests.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Collaberated with on-shore team for giving insights on how
+                      to implement client requirements.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Achieved 90+% UT coverage for every connector by using
+                      testing libraries Jest, Enzyme, React-testing-library.
+                    </div>
+                    <div className="sec-expe__container__card__details__keypoints--card">
+                      Supported team members to achieve their tasks before
+                      deadline and helped in providing enhancements in their
+                      code.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="sec-expe__container">
             <div className="sec-expe__grid1">
               <div className="sec-expe__content">
                 <img
@@ -674,7 +939,7 @@ const Home: React.FC = () => {
                 <div className="sec-expe__content__details sec-expe__content__details--3">
                   <ul>
                     <li className="sec-expe__content__details__bulletPoint">
-                      Translated designs & wireframes into high-quality code
+                      Translated designs & wireframes into high-quality code.
                     </li>
                     <li className="sec-expe__content__details__bulletPoint">
                       Provided client business solutions which indeed improved
@@ -682,7 +947,7 @@ const Home: React.FC = () => {
                     </li>
                     <li className="sec-expe__content__details__bulletPoint">
                       Developed reusable components fully based on React
-                      functional components
+                      functional components.
                     </li>
                     <li className="sec-expe__content__details__bulletPoint">
                       Communication with client for solving their technical
@@ -691,7 +956,7 @@ const Home: React.FC = () => {
                     </li>
                     <li className="sec-expe__content__details__bulletPoint">
                       Collaberated with on-shore team for giving insights on how
-                      to implement client requirements
+                      to implement client requirements.
                     </li>
                     <li className="sec-expe__content__details__bulletPoint">
                       Achieved 90+% UT coverage for every connector by using
@@ -708,9 +973,10 @@ const Home: React.FC = () => {
             </div>
             <div className="sec-expe__grid2 sec-expe__grid2--3"></div>
             <div className="sec-expe__box"></div>
-          </div>
+          </div> */}
         </section>
 
+        {/* Gallery Section */}
         <section className="gallery-container">
           <section className="gallery">
             <figure className="gallery__item gallery__item--1">
